@@ -1,0 +1,1 @@
+import{a1 as t,r as a,a3 as o}from"./BD8Aas8I.js";const s=t({name:"ClientOnly",setup(r,{slots:e}){const n=a(!1);return o(()=>{n.value=!0}),()=>{var l;return n.value?(l=e.default)==null?void 0:l.call(e):null}}});export{s as m};

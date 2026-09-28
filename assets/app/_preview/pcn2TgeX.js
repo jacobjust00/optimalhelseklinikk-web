@@ -1,0 +1,1 @@
+import{e as a,r as s,a3 as r,c as t}from"./BD8Aas8I.js";import{i,a as c}from"./DnbtE6Aa.js";const n=()=>{const e=a(),o=s(!1);return r(()=>{o.value=window.matchMedia?.("(hover: none)")?.matches??!1}),t(()=>i(c(e.value.mobileDevice,e.value.tabletDevice),o.value))};export{n as u};

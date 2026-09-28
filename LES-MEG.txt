@@ -1,0 +1,47 @@
+OPTIMAL HELSEKLINIKK – KOPI AV NETTSIDEN
+Eksportert fra HighLevel 23. september 2026
+
+Dette er en komplett, frittstående kopi av nettsiden optimalhelseklinikk.no slik den
+så ut på eksportdatoen. Alt som trengs for å vise siden ligger i denne mappen:
+HTML-filene, bilder, video, skrifttyper og JavaScript.
+
+INNHOLD
+  index.html               Forsiden (samme innhold som hjem.html)
+  hjem.html                Hjem
+  behandlinger.html        Behandlinger
+  priser.html              Priser
+  assets/media/            Bilder og video
+  assets/fonts/            Skrifttyper (Google Fonts, lastet ned lokalt)
+  assets/fontawesome/      Ikonfonter
+  assets/intl-tel-input/   Flaggbilder brukt av telefonfelt
+  assets/app/              JavaScript som gjør menyen, animasjoner og popups
+                           interaktive (sidevisningen fra HighLevel)
+
+SLIK TAR DERE SIDEN I BRUK
+  1. Last opp hele mappen, med undermapper, til et webhotell eller en tjeneste for
+     statiske nettsider (f.eks. Netlify, Cloudflare Pages, Vercel, one.com,
+     Domeneshop). index.html er startsiden.
+  2. Pek domenet optimalhelseklinikk.no og www.optimalhelseklinikk.no til den nye
+     tjenesten hos den som administrerer domenet. I dag peker DNS til HighLevel
+     (www går til sites.ludicrous.cloud).
+  3. Sidene må vises gjennom en webserver (http/https). Åpner du index.html direkte
+     fra Utforsker/Finder, vises tekst og bilder, men menyen og andre interaktive
+     deler virker ikke, fordi nettlesere blokkerer slike script fra lokale filer.
+
+VERDT Å VITE
+  - Innhold endres ved å redigere HTML-filene direkte, eller ved å bygge siden på
+    nytt i et annet verktøy (WordPress, Squarespace, Webflow o.l.) med tekst og
+    bilder fra denne mappen. Filene kan ikke importeres rett inn i en annen
+    sidebygger.
+  - Lenkene mellom sidene peker på .html-filene (f.eks. priser.html).
+  - Booking-knappene går til system.physica.no og virker uavhengig av HighLevel.
+  - Kartet er en Google Maps-innbygging og fungerer som før.
+  - Facebook-pixelen (fbevents.js) ligger fortsatt i koden. Sjekk at pixel-ID-en
+    er deres egen, ellers bør den fjernes eller byttes.
+  - Noen script i assets/app rapporterer fortsatt statistikk til HighLevel sine
+    servere. Det påvirker ikke visningen av siden, men kan fjernes av en utvikler.
+  - www.optimalhelseklinikk.no gir i dag SSL-feil fordi sertifikatet mangler hos
+    HighLevel. Det løser seg når domenet flyttes til en ny tjeneste med eget
+    sertifikat.
+  - E-postadressene var maskert av Cloudflare på den gamle siden. Her står de i
+    klartekst.

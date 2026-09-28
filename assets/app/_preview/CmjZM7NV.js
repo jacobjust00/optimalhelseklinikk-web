@@ -1,0 +1,1 @@
+import{a as e}from"./BD8Aas8I.js";const n="https://stcdn.leadconnectorhq.com/intl-tel-input/17.0.12/css/intlTelInput.min.css";function s(){return{key:"intl-tel-input-css",rel:"stylesheet",href:n}}function i(t=!0){t&&e({link:[s()]})}export{s as i,i as u};
